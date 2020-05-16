@@ -55,9 +55,9 @@ Please find deployment images here:
 
 - [Travis CI Build output](images/travis-ci-build.PNG "Travis CI")
 - [Docker Compose running Containers](images/docker-compose-up.PNG "Docker Compose")
-- [Kubernetes Services/Pods and Port Forwarding to reverse proxy](show-pods-service-portforward.png "Kubernetes Pods/Services")
-- [Kubernetes Port forwarding to frontend](kubernetes-front-end-forward.png "Kubernetes Frontend Port forwarding")
-- [View in Browser of application](browser.PNG "Browserview")
+- [Kubernetes Services/Pods and Port Forwarding to reverse proxy](images/show-pods-service-portforward.png "Kubernetes Pods/Services")
+- [Kubernetes Port forwarding to frontend](images/kubernetes-front-end-forward.png "Kubernetes Frontend Port forwarding")
+- [View in Browser of application](images/browser.PNG "Browserview")
 
 
 
