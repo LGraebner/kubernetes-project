@@ -1,5 +1,5 @@
 # kubernetes-project
-
+[![Build Status](https://www.travis-ci.com/LGX9/kubernetes-project.svg?branch=master)](https://www.travis-ci.com/LGX9/kubernetes-project)
 ## Docker
 Docker images are uploaded to dockerhub:
 - backend-user: cyronix/udacity-restapi-user
@@ -48,7 +48,7 @@ The following port-forwarding needs to be enabled:
 The application should now be accessible via a browser on http://localhost:8100.
 
 ### CI/CD
-CI/CD is in place via a travis build server that automatically builds docker images.
+CI/CD is in place via an integration of travis ci which automatically builds docker images after a commit.
 
 
 
