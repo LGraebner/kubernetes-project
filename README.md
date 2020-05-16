@@ -42,10 +42,13 @@ The services can be set up via the commands:
 ### Port forwarding to the services
 The services are now running, but there is no communication outside the kubernetes cluster so a port the host machine needs to be mapped to a host of a service in the kubernetes cluster.
 The following port-forwarding needs to be enabled:
-- backend services: `kubectl` port-forward svc/reverseproxy 8080:8080`
-- frontend-service: `kubectl` port-forward svc/frontend 8100:8100`
+- backend services: `kubectl port-forward svc/reverseproxy 8080:8080`
+- frontend-service: `kubectl port-forward svc/frontend 8100:8100`
 
 The application should now be accessible via a browser on http://localhost:8100.
+
+### CI/CD
+CI/CD is in place via a travis build server that automatically builds docker images.
 
 
 
